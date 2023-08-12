@@ -26,15 +26,16 @@ header .btn {
     width: 157px;
     border-radius: 30px;
     border: none;
-    z-index: 100;
+    z-index: 0;
 }
 
 .hero {
+    z-index: 0;
     height: 80vh;
     display: grid;/*turns div table like*/
     grid-template-columns: 2fr 1fr;
     justify-content: space-between;
-    position: relative;
+    /* position: absolute; */
 }
 
 .hero-content {
@@ -76,7 +77,61 @@ header .btn {
     background: url('./assets/image-hero-desktop.png');
     width: 991.63px;
     height: 936.92px;
-    right: -277px;
-    top: -258px;
+    right: -295px;
+    top: -310px;
     position: relative;
 } 
+
+.courses {
+    margin-left: 130px;
+    display: grid;
+    /* z-index: 0; */
+    margin-top: 10rem;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 322px 322px;
+    row-gap: 8rem;
+    justify-content: space-between; 
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #83869A;
+}
+
+.courses h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.popular {
+    display: flex;
+    color: white;
+    background: linear-gradient(#F02AA6, #FF6f48);
+    border-radius: 15px;
+    padding: 4rem 2rem  ;
+}
+
+.gta {
+    color: #F74780 !important;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    padding: 1rem 3rem;
+    /* box-shadow: 4rem; */
+    /* background-color: purple; */
+    position: relative;
+    box-shadow: 0px 16px 23px 8px rgba(0,0,0,0.1);
+}
+
+.icon-container {
+    position: absolute;
+    bottom: 288px;
+    /* right: 0px; */
+}
