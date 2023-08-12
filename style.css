@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .header-container {
-    background-color: green;
     display: flex;
     align-items: center;
     justify-content: space-between; /*row like*/
@@ -15,11 +18,27 @@
 }
 
 header .btn {
-    background: purple;
+    background: #13183F;
     color: white;
     cursor: pointer;
     height: 56px;
     width: 157px;
     border-radius: 30px;
     border: none;
+    z-index: 100;
 }
+
+.hero {
+    display: grid;/*turns div table like*/
+    grid-template-columns: 1fr 1fr ;
+    justify-content: space-between;
+}
+
+.hero-image{
+    background: url('./assets/image-hero-desktop.png');
+    width: 991.63px;
+    height: 936.92px;
+    right: -262px;
+    top: -126px;
+    position: absolute;
+} 
