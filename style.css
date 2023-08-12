@@ -7,6 +7,7 @@
 
 body {
     overflow-x: hidden;
+    background: linear-gradient(#FFFFFF, #F0F1FF);
 }
 
 .header-container {
