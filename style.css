@@ -29,9 +29,21 @@ header .btn {
 }
 
 .hero {
+    height: 80vh;
     display: grid;/*turns div table like*/
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 2fr 1fr;
     justify-content: space-between;
+    position: relative;
+}
+
+.hero-content {
+    height: 500px;
+    /* width: 150%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 100px;
 }
 
 .hero-image{
@@ -39,6 +51,6 @@ header .btn {
     width: 991.63px;
     height: 936.92px;
     right: -262px;
-    top: -126px;
-    position: absolute;
+    top: -230px;
+    position: relative;
 } 
