@@ -136,3 +136,34 @@ header .btn {
     bottom: 288px;
     /* right: 0px; */
 }
+
+.footer-container {
+    /* padding-left: 130px;
+    padding-right: 130px; */
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*row like*/
+    height: 100px;
+    width: 80%;
+    margin: 0 auto; /*center the div*/
+}
+
+footer {
+    margin-top: 8rem;
+    display: flex;
+    background-color: #13183F;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container .btn {
+    background: linear-gradient(#F02AA6, #FF6f48);
+    margin-top: 40px;
+    color: white;
+    cursor: pointer;
+    height: 56px;
+    width: 157px;
+    border-radius: 30px;
+    border: none;
+}
