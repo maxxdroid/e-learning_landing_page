@@ -92,6 +92,7 @@ header .btn {
     grid-template-rows: 322px 322px;
     row-gap: 8rem;
     justify-content: space-between; 
+    margin-bottom: 4rem;
 }
 
 .card p {
@@ -138,28 +139,25 @@ header .btn {
 }
 
 .footer-container {
-    /* padding-left: 130px;
-    padding-right: 130px; */
-    margin-top: 10rem;
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between; /*row like*/
     height: 100px;
     width: 80%;
-    margin: 0 auto; /*center the div*/
+    margin: 0 auto;
+     /*center the div*/
 }
 
 footer {
+    /* padding-top: 30px; */
     margin-top: 8rem;
     display: flex;
-    background-color: #13183F;
-    align-items: center;
-    justify-content: space-between;
+    background-color: hsl(233, 54%, 16%);
 }
 
 .footer-container .btn {
     background: linear-gradient(#F02AA6, #FF6f48);
-    margin-top: 40px;
     color: white;
     cursor: pointer;
     height: 56px;
